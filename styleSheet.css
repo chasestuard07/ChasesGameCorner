@@ -76,3 +76,7 @@ footer {
 #about {
     font-weight: bold;  
 }
+
+.aboutGame {
+    text-align: left;
+}
