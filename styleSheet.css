@@ -1,0 +1,78 @@
+body {
+    background-color: #42aaff;
+
+    color: rgb(214, 245, 255);;
+    font-family: 'Edu SA Hand', monospace;
+    text-align: center;
+}
+
+div.thumbnailContainer {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;    
+}
+
+a {
+    font-weight: bold;
+}
+
+.gameBlock {
+    background-color: #3866ff;
+
+    border-color: darkblue;
+    border-radius: 9px;
+    border-width: 6px;
+    border-style: solid;
+
+    text-align: center;
+}
+
+img.thumbnail {
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    margin: 40px;
+
+    background-color: #3866ff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    border-color: darkblue;
+    border-radius: 3px;
+    border-width: 6px;
+    border-style: solid;
+}
+
+.title {
+    font-size: 50px;
+
+    line-height: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+    
+.subtitle {
+    font-size: 15px;
+    border-bottom:10px solid darkblue;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+
+.updateEntry {
+    text-align: left;
+}
+.updateTitle {
+    padding-left: 50px;  
+}
+
+#about {
+    font-weight: bold;  
+}
