@@ -9,37 +9,52 @@
     </head>
 
     <body>
-        <h1 class='title'>Update Log</h1>
+        <header>
+            <h1>Update Log</h1>
+        </header>
         
-        <div id="entry1" class="updateEntry">
-            <h3 class = 'updateTitle'>Version 0.1</h3>
-            <ul class = 'updateParagraph'>
-                <li>The first version!</li>
-                <li>Home page complete with ASCII Snake and Unbeatable Pong</li>
-                <li>Footer including home, about, and update log</li>
-                <li> About page complete</li>
-                <li>Update log complete</li>
+        <main>
+            <article class = 'animateUp'>
+                <h3>Version 0.1</h3>
+                <ul>
+                    <li>The first version!</li>
+                    <li>Home page complete with ASCII Snake and Unbeatable Pong</li>
+                    <li>Footer including home, about, and update log</li>
+                    <li> About page complete</li>
+                    <li>Update log complete</li>
+                </ul>
+            </article>
 
-            </ul>
-        </div>
+            <article class = 'animateUp'>
+                <h3>Version 0.2</h3>
+                <ul>
+                    <li> Updated game pages to feature about sections </li>
+                    <li> Fixed bug involving switching between pages using the footer</li>
+                    <li> Implemented GIT for easier version control</li>
+                </ul>
+            </article>
 
-        <div id="entry2" class="updateEntry">
-            <h3 class = 'updateTitle'>Version 0.2</h3>
-            <ul class = 'updateParagraph'>
-                <li> Updated game pages to feature about sections </li>
-                <li> Fixed bug involving switching between pages using the footer</li>
-                <li> Implemented GIT for easier version control</li>
-            </ul>
-        </div>
+            <article class = 'animateUp'>
+                <h3>Version 0.3</h3>
+                <ul>
+                    <li> Added Cube Renderer </li>
+                    <li> Updated graphics of entire website</li>
+                    <li> Cleaned code</li>
+                    <li> Added animations</li>
+                </ul>
+            </article>
+        </main>
 
 
-
-
-        <footer>     
+        <footer class = 'flexbox'>     
             <p>made by Chase Stuard</p>
-            <a href="index.html">HOME</a>
-            <a href="AboutPage.html">ABOUT</a>
-            <a href="UpdateLog.html">UPDATE LOG</a>
+            <nav class = 'flexbox'>
+                <a href="index.html">HOME</a>
+                <a href="AboutPage.html">ABOUT</a>
+                <a href="UpdateLog.html">UPDATE LOG</a>
+            </nav>
         </footer>
+
+        <script src = 'animationController.js'></script>
     </body>
 </html>

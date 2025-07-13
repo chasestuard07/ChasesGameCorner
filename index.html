@@ -1,38 +1,51 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> HOME | Chase's Game Corner </title>
+        <title>HOME | Chase's Game Corner</title>
         <link rel="stylesheet" href = "styleSheet.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&display=swap" rel="stylesheet">
+
     </head>
 
     <body>
-        <h1 class = 'title'>Chase's Game Corner</h1>
-        <h1 class = 'subtitle'>By Chase Stuard</h1>
-       
-       
-        <h2 class = 'subsection'>wave 1 - retro games</h2>
-
-        <div class = 'thumbnailContainer'>
-            <a id = 'ASCII Snake' class = 'gameBlock' href="Games/ASCII Snake/ASCIISnake.html">
-                <img class = 'thumbnail' src="Images/ASCIISnakeThumbnail.png"> <br>
-                <p>ASCII Snake</p> 
-            </a>
-
-            <a id = 'Unbeatable Pong' class = 'gameBlock' href="Games/Unbeatable Pong/UnbeatablePong.html">
-                <img class = 'thumbnail' src="Images/UnbeatablePongThumbnail.png"> <br>
-                <p>Unbeatable Pong</p>
-            </a>
-        </div>
+        <header>
+            <h1>Chase's Game Corner</h1>
+            <h2>By Chase Stuard</h2>
+        </header>
         
-        <footer>     
-            <p>made by Chase Stuard</p>
-            <a href="index.html">HOME</a>
-            <a href="AboutPage.html">ABOUT</a>
-            <a href="UpdateLog.html">UPDATE LOG</a>
-        </footer>
-    </body>
+        <main>
+            <section>
+                <div class = 'flexbox'>
+                    <a class = 'gameBlock animateUp' href="Games/ASCII Snake/ASCIISnake.html">
+                        <img class = 'thumbnail' src="Images/ASCIISnakeThumbnail.png" alt="ASCII Snake"> <br>
+                        <p>ASCII Snake</p> 
+                    </a>
 
+                    <a class = 'gameBlock animateUp' href="Games/Unbeatable Pong/UnbeatablePong.html">
+                        <img class = 'thumbnail' src="Images/UnbeatablePongThumbnail.png" alt="Unbeatable Pong"> <br>
+                        <p>Unbeatable Pong</p>
+                    </a>
+
+                    <a class = 'gameBlock animateUp' href="Games/Cube Renderer/CubeRenderer.html">
+                        <img class = 'thumbnail' src="Images/CubeRendererThumbnail.png" alt="Cube Renderer"> <br>
+                        <p>Cube Renderer</p>
+                    </a>
+                </div>
+            </section>
+        </main>
+        
+        <footer class = 'flexbox'>     
+            <p>made by Chase Stuard</p>
+            <nav class = 'flexbox'>
+                <a href="index.html">HOME</a>
+                <a href="AboutPage.html">ABOUT</a>
+                <a href="UpdateLog.html">UPDATE LOG</a>
+            </nav>
+        </footer>
+
+    <script src = 'animationController.js'></script>
+    
+    </body>
 </html>
